@@ -4,7 +4,7 @@ import(
 	"log"
 	"net/http"
 	"github.com/gorilla/mux"
-	"github.com/jinzhu/gorm/dialects/mysql"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/miriam-samuels/bookstore/pkg/routes"
 )
 

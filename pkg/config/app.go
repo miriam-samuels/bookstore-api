@@ -3,12 +3,11 @@ package config
 import(
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-)
+) 
 
 // returned variable that helps interact with the database
-var(
-	db *gorm.DB
-)
+var db *gorm.DB
+
 
 //helps open a connection with database
 func Connect(){
